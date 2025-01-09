@@ -7,6 +7,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaClock } from "react-icons/fa6";
 import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 
 const Contact = () => {
@@ -136,6 +137,7 @@ const Contact = () => {
         <div className='w-screen h-48  right-24 bg-[#F9F1E7] flex items-center justify-center'>
           <img data-aos='fade-up' data-aos-delay='300' src={Feature} alt="" className='flex items-center justify-center h-16 ' />
         </div>
+        <Footer />
     </>
   )
 }

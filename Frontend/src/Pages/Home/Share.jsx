@@ -22,25 +22,25 @@ const Share = () => {
         src={Image_1}
         alt="Item 1"
         data-aos='slide-up' data-aos-delay='300'
-        className=" h-[382px] w-[78px] object-cover mt-2 ml-[80px] lg:-ml-[5px] md:-mt-4"
+        className="hidden md:flex md:h-[382px] md:w-[78px] object-cover mt-2 ml-[80px] lg:-ml-[5px] md:-mt-4"
         />
         <img
           src={Image_2}
           alt="Item 2"
           data-aos='slide-up' data-aos-delay='300'
-          className="col-span-4 w-[451px] h-[312px]  mt-[55px] -ml-6 md:-ml-9 object-cover"
+          className="col-span-4 w-[451px] h-[312px] mx-auto mt-[55px] -ml-2 md:-ml-9 object-cover"
         />
         <img
           src={Image_3}
           alt="Item 3"
           data-aos='slide-up' data-aos-delay='300'
-          className="w-[295px] col-span-2 h-[392px] mt-[140px] md:-ml-16 object-cover"
+          className="hidden md:block md:w-[295px] col-span-2 h-[392px] mt-[140px] md:-ml-16 object-cover"
         />
         <img
           src={Image_4}
           alt="Item 4"
           data-aos='slide-up' data-aos-delay='300'
-          className="h-[348px] w-[290] col-span-2 -ml-16 mt-[84px] object-cover"
+          className="h-[348px] w-[290] col-span-2 md:-ml-16 mt-[84px] object-cover"
         />
         <img
           src={Image_5}

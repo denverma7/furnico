@@ -44,9 +44,9 @@ const App = () => {
       
       
       {/* <Navbar /> */}
-      {/* <SingleProduct />
-      <ProductDetails />
-      <RelatedProducts />   */}
+      {/* <SingleProduct /> */}
+      {/* <ProductDetails /> */}
+      {/* <RelatedProducts />   */}
       {/* <Cart /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}

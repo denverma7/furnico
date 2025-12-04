@@ -57,7 +57,7 @@ const Navbar = () => {
                 </div>
                 {/* right navbar */}
                 <div>
-                  <ul className='hidden sm:flex items-center mr-9 md:mr-24 gap-10 text-md py-4 sm:py-0 '>
+                  <ul className='hidden sm:flex items-center mr-9 gap-10 text-md py-4 sm:py-0 '>
                       <li>
                           <a href="#" className='flex items-center '><FaRegUser /> <span>!</span></a>
                       </li>

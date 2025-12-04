@@ -59,18 +59,18 @@ const Contact = () => {
           <div className='relative col-span-1'>
             <ul className='mt-10 flex flex-col space-y-6 md:ml-[320px]'>
               <li>
-                <h1 className='font-semibold text-xl flex'> <IoLocationSharp /><span className='ml-3'>Address</span> </h1>
-                <p className='text-sm ml-8'>236 5th SE Avenue, New <br />York NY10000, United <br />States</p>
+                <h1 className='font-semibold text-xl flex mt-4'> <IoLocationSharp /><span className='ml-3'>Address</span> </h1>
+                <p className='text-sm ml-8'>236 5th SE Avenue, <br /> New York NY10000,<br /> United States</p>
               </li>
               <li>
                 <h1 className='font-semibold text-xl flex'><FaPhoneAlt className='text-sm' /><span className='ml-3'> Phone</span></h1>
-                <p className='text-sm ml-8'>Mobile: +(84) 546-6789</p>
+                <p className='text-sm ml-8 leading-6'>Mobile: +(84) 546-6789</p>
                 <p className='text-sm ml-8'>Hotline: +(84) 546-6789</p>
               </li>
               <li>
                 <h1 className='font-semibold text-xl flex'> <FaClock /> <span className='ml-3'>Working Time</span></h1> 
-                <p className='text-sm ml-8'>Monday-Friday: 9:00 - <br />22.00</p>
-                <p className='text-sm ml-8'>Saturday-Sunday: 9:00 - <br />21.00</p>
+                <p className='text-sm ml-8 leading-6'>Monday-Friday: 9:00 - 22.00</p>
+                <p className='text-sm ml-8'>Saturday-Sunday: 9:00 - 21.00</p>
               </li>
             </ul>
           </div>
@@ -137,7 +137,7 @@ const Contact = () => {
         <div className='w-screen h-48  right-24 bg-[#F9F1E7] flex items-center justify-center'>
           <img data-aos='fade-up' data-aos-delay='300' src={Feature} alt="" className='flex items-center justify-center h-16 ' />
         </div>
-        <Footer />
+        <Footer />    
     </>
   )
 }
